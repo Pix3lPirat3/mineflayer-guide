@@ -1,0 +1,22 @@
+# Breaking Blocks
+
+## Targeting Blocks
+You can target blocks by using functions such as `bot.blockAtCursor()`, `bot.findBlock()`/`bot.findBlocks()`, `bot.blockAt(vec3)`, and other methods.
+
+## Breaking Blocks
+```js copy
+let block = bot.blockAtCursor(3.5); // Max Distance: 3.5
+if(!block) return console.log('There is no reachable block at my cursor');
+bot.dig(bot.blockAtCursor());
+```
+
+## Recursive Digging
+This is a simple method of "Recursive Digging" ([Consistent Miner by Pix3lPirat3](https://github.com/Pix3lPirat3/mineflayer-consistent-miner/))
+```js copy
+bot.on('physicsTick', async function() {
+    if(bot.targetDigBlock) return;
+    let block = bot.blockAtCursor(4.5);
+    if(!block) console.log('No block at cursor');
+    await bot.dig(block);
+});
+```

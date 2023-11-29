@@ -1,0 +1,52 @@
+# Cuboid Mining
+
+# Cuboid Class
+I created a [tool](https://github.com/Pix3lPirat3/mineflayer-cuboid) for defining a cuboid to make it easier to define and interact with a cuboid region. You'll need to use [vec3](https://github.com/PrismarineJS/node-vec3) aswell.
+
+# Installing
+```bash copy
+npm install mineflayer-cuboid
+npm install node-vec3
+```
+
+# Defining
+```js copy
+const Cuboid = require('mineflayer-cuboid');
+var v = require('vec3');
+```
+
+# Defining Cuboid
+You'll need to define your cuboid, meaning the two corners `point1` and `point2`.
+```js copy
+let cube = new Cuboid(v(0, 0, 0), v(5, 5, 5));
+```
+
+# Cuboid Positions
+You'll then use `getPositions()` to return an Array of block positions in your cube.
+```js copy
+let positions = cube.getPositions(); // [vec3]
+```
+
+# Position Looping
+Then by looping through all the positions in the cube, we'll get the block at that position using `bot.blockAt(vec3)`, and dig it out. If it's an air block we can ignore it, so we use `continue` to skip to the next position.
+```js copy
+for(let a = 0; a < positions.length; a++) {
+  let pos = positions[a];
+  let block = bot.blockAt(pos);
+  if(block.name === 'air') continue;
+  await bot.dig(block);
+}
+```
+
+# Pathfinding
+If you're out of reach of blocks then you'll need to use the library [mineflayer-pathfinder](https://github.com/PrismarineJS/mineflayer-pathfinder) to navigate to blocks.
+
+```js copy
+for(let a = 0; a < positions.length; a++) {
+  let pos = positions[a];
+  let block = bot.blockAt(pos);
+  if(block.name === 'air') continue;
+  await bot.pathfinder.goto(new GoalLookAtBlock(pos, bot.world, { reach: 4.5 }))
+  await bot.dig(block);
+}
+```

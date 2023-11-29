@@ -1,0 +1,15 @@
+# Using Armor
+You can `equip` or `unequip` armor by passing an `Item` and `Destination`. (Destinations: head, torso, legs, feet)
+
+## Equipping Armor
+The basic function for equipping armor is `bot.equip(item, destination)`
+```js copy
+let item = bot.inventory.items().find(item => item.name === 'diamond_helmet');
+bot.equip(item, 'head')
+```
+
+## Unequip Armor
+Passing a `desination` will remove the item from that slot and place it into an empty inventory slot.
+```js copy
+bot.unequip('head')
+```

@@ -1,0 +1,17 @@
+# Introduction
+
+If you're a Minecraft developer, you may already be familiar with the process of creating mods or plugins to enhance the game's functionality. However, you might not have considered using JavaScript for Minecraft development. This is where Node.js comes in.
+
+
+## What is NodeJS
+
+Node.js is a runtime environment that allows you to run JavaScript code outside of the browser. It enables developers to build applications using JavaScript, which can interact with Minecraft's servers.
+
+## NodeJS for Minecraft Development
+Traditionally, Minecraft mods or plugins were written in Java, which required an understanding of the Java programming language and the Minecraft Forge modding platform. However, with Node.js, you can create servers, plugins, and bots.
+
+Node.js is a lightweight and efficient platform for developing Minecraft bots. It is built on top of Chrome's V8 JavaScript engine, which offers high performance and optimized resource management.
+
+One of the advantages of Node.js is its event-driven, non-blocking I/O model. This means that your Minecraft bot can handle multiple requests simultaneously without blocking the execution of other code. For example, you can handle player interactions, chat messages, or block interactions in real-time without negatively impacting the overall performance of the bot.
+
+The NodeJS community [PrismarineJS](#) has an active developer community, which means there are numerous [open-source libraries and frameworks](#) available for server, plugin, and bot development, as well as support.

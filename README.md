@@ -1,22 +1,12 @@
-# Nextra Docs Template 
+# Mineflayer Guide
 
-This is a template for creating documentation with [Nextra](https://nextra.site).
+This is not official documentation for PrismarineJS, it is a beginner friendly guide for mineflayer written by users for users. 
 
-[**Live Demo →**](https://nextra-docs-template.vercel.app)
+» [Go to documentation](https://pix3lpirat3.github.io/mineflayer-guide/)
 
-[![](.github/screenshot.png)](https://nextra-docs-template.vercel.app)
 
-## Quick Start
-
-Click the button to clone this repository and deploy it on Vercel:
-
-[![](https://vercel.com/button)](https://vercel.com/new/clone?s=https%3A%2F%2Fgithub.com%2Fshuding%2Fnextra-docs-template&showOptionalTeamCreation=false)
-
-## Local Development
-
-First, run `pnpm i` to install the dependencies.
-
-Then, run `pnpm dev` to start the development server and visit localhost:3000.
+## Contribute
+If you want to add, or edit pages you can make a pull request. You can also suggest lessons and guides.
 
 ## License
 
