@@ -4,6 +4,7 @@ const withNextra = require('nextra')({
 })
 module.exports = withNextra({
   basePath: process.env.NODE_ENV === 'development' ? '' : '/mineflayer-guide',
+  swcMinify: false,
   images: {
     unoptimized: true
   }
