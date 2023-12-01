@@ -12,7 +12,6 @@
   "dependencies": {
     "next": "^14.0.3",
     "nextra": "2.2.14",
-    "nextra-theme-docs": "latest",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
