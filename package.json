@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "next": "^14.0.3",
+    "next": "^v14.0.4-canary.32",
     "nextra": "2.2.14",
     "react": "latest",
     "react-dom": "latest"
