@@ -1,0 +1,15 @@
+{
+  "title": "Findamentals",
+  "slug": "/category/findamentals",
+  "permalink": "/category/findamentals",
+  "navigation": {
+    "previous": {
+      "title": "Mineflayer",
+      "permalink": "/category/mineflayer"
+    },
+    "next": {
+      "title": "Introduction",
+      "permalink": "/mineflayer/fundamental_awareness/intro"
+    }
+  }
+}

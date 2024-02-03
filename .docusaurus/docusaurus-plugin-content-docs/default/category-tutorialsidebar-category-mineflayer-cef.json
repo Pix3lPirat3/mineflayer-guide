@@ -1,0 +1,15 @@
+{
+  "title": "Mineflayer",
+  "slug": "/category/mineflayer",
+  "permalink": "/category/mineflayer",
+  "navigation": {
+    "previous": {
+      "title": "Introduction",
+      "permalink": "/"
+    },
+    "next": {
+      "title": "Introduction",
+      "permalink": "/mineflayer/intro"
+    }
+  }
+}

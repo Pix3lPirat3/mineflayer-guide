@@ -1,0 +1,15 @@
+{
+  "title": "Fundamentals",
+  "slug": "/category/fundamentals",
+  "permalink": "/category/fundamentals",
+  "navigation": {
+    "previous": {
+      "title": "Mineflayer",
+      "permalink": "/category/mineflayer"
+    },
+    "next": {
+      "title": "Introduction",
+      "permalink": "/mineflayer/basic/intro"
+    }
+  }
+}

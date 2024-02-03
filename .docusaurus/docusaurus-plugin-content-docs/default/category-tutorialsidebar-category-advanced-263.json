@@ -1,0 +1,15 @@
+{
+  "title": "Advanced",
+  "slug": "/category/advanced",
+  "permalink": "/category/advanced",
+  "navigation": {
+    "previous": {
+      "title": "Introduction",
+      "permalink": "/mineflayer/intermediate/intro"
+    },
+    "next": {
+      "title": "Introduction",
+      "permalink": "/mineflayer/advanced/intro"
+    }
+  }
+}

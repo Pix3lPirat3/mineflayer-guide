@@ -1,0 +1,20 @@
+{
+  "id": "snippets/onMsaCode",
+  "title": "onMsaCode",
+  "description": "You can set the function onMsaCode in mineflayer.createBot to grab the data needed for authenticating a new Microsoft account. This includes the link, code, expiration, and other data for the authentication.",
+  "source": "@site/docs/snippets/onMsaCode.mdx",
+  "sourceDirName": "snippets",
+  "slug": "/snippets/onMsaCode",
+  "permalink": "/snippets/onMsaCode",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/snippets/onMsaCode.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Cuboid Mining",
+    "permalink": "/snippets/cuboid_mining"
+  }
+}

@@ -1,0 +1,16 @@
+# Using Buckets
+When using buckets the basic function is looking at the target block and using `bot.activateItem()`. You can find `lava` and `water` by position `bot.blockAt(vec3)` and by locating the block using `bot.findBlock({ matching: bot.registry.blocksByName['lava'].id })`
+
+## Grabbing Liquid
+When grabbing a liquid you need to be looking at the liquid block
+```js copy
+bot.activateItem()
+```
+
+
+## Grabbing Fish
+When trying to catch fish in a bucket you need to use `bot.useOn(entity)`
+```js copy
+let entity = bot.nearestEntity(e => e.type === 'water_creature' && bot.entity.position.distanceTo(e.position) < 4.5);
+bot.useOn(bot.nearestEntity())
+```

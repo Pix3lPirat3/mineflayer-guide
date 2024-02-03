@@ -1,0 +1,28 @@
+{
+  "id": "mineflayer/basic/intro",
+  "title": "Introduction",
+  "description": "Once you've got your project loaded you can add the Mineflayer package by using",
+  "source": "@site/docs/mineflayer/basic/intro.md",
+  "sourceDirName": "mineflayer/basic",
+  "slug": "/mineflayer/basic/intro",
+  "permalink": "/mineflayer/basic/intro",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/mineflayer/basic/intro.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {
+    "title": "Introduction",
+    "sidebar_position": 0
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Basic",
+    "permalink": "/category/basic"
+  },
+  "next": {
+    "title": "createBot",
+    "permalink": "/mineflayer/basic/createBot"
+  }
+}

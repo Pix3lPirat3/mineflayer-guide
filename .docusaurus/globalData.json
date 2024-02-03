@@ -1,0 +1,138 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/",
+          "mainDocId": "Introduction",
+          "docs": [
+            {
+              "id": "Introduction",
+              "path": "/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "mineflayer/advanced/intro",
+              "path": "/mineflayer/advanced/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "mineflayer/basic/createBot",
+              "path": "/mineflayer/basic/createBot",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "mineflayer/basic/intro",
+              "path": "/mineflayer/basic/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "mineflayer/expert/intro",
+              "path": "/mineflayer/expert/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "mineflayer/intermediate/intro",
+              "path": "/mineflayer/intermediate/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "mineflayer/intro",
+              "path": "/mineflayer/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "mineflayer/novice/intro",
+              "path": "/mineflayer/novice/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "snippets/armor",
+              "path": "/snippets/armor",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "snippets/attack",
+              "path": "/snippets/attack",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "snippets/block_break",
+              "path": "/snippets/block_break",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "snippets/block_place",
+              "path": "/snippets/block_place",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "snippets/buckets",
+              "path": "/snippets/buckets",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "snippets/cuboid_mining",
+              "path": "/snippets/cuboid_mining",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "snippets/onMsaCode",
+              "path": "/snippets/onMsaCode",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/mineflayer",
+              "path": "/category/mineflayer",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/basic",
+              "path": "/category/basic",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/novice",
+              "path": "/category/novice",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/intermediate",
+              "path": "/category/intermediate",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/advanced",
+              "path": "/category/advanced",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/expert",
+              "path": "/category/expert",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/snippets",
+              "path": "/category/snippets",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/",
+                "label": "Introduction"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

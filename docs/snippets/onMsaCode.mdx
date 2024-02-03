@@ -1,0 +1,13 @@
+# onMsaCode
+You can set the function `onMsaCode` in `mineflayer.createBot` to grab the data needed for authenticating a new Microsoft account. This includes the link, code, expiration, and other data for the authentication.
+
+```js copy
+mineflayer.createBot({
+  username: '',
+  auth: 'microsoft',
+  onMsaCode: function(data) {
+    console.log(`Use the code "${data.user_code}" on ${data.verification_uri} to authenticate your account.`)
+  }
+})
+
+```

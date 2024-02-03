@@ -1,0 +1,16 @@
+# Placing Blocks
+
+## Targeting Blocks
+You can target blocks by using functions such as `bot.blockAtCursor()`, `bot.findBlock()`/`bot.findBlocks()`, `bot.blockAt(vec3)`, and other methods.
+
+## referenceBlock and faceVector
+`referenceBlock` is the block you want to place a new block against (next to, on top of, on bottom of)
+`faceVector` is one of the six cardinal directions, such as `new Vec3(0, 1, 0)` for the top face, indicating which face of the referenceBlock to place the block against.
+
+## Placing
+```js copy
+const vec3 = require('vec3');
+let referenceBlock = bot.blockAtCursor();
+let faceVectorTop = new vec3(0, 1, 0);
+bot.placeBlock(referenceBlock, faceVectorTop);
+```

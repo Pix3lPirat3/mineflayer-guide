@@ -1,0 +1,24 @@
+{
+  "id": "snippets/buckets",
+  "title": "Using Buckets",
+  "description": "When using buckets the basic function is looking at the target block and using bot.activateItem(). You can find lava and water by position bot.blockAt(vec3) and by locating the block using bot.findBlock({ matching: bot.registry.blocksByName['lava'].id })",
+  "source": "@site/docs/snippets/buckets.mdx",
+  "sourceDirName": "snippets",
+  "slug": "/snippets/buckets",
+  "permalink": "/snippets/buckets",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/snippets/buckets.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Placing Blocks",
+    "permalink": "/snippets/block_place"
+  },
+  "next": {
+    "title": "Cuboid Mining",
+    "permalink": "/snippets/cuboid_mining"
+  }
+}

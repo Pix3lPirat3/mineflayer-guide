@@ -1,0 +1,15 @@
+{
+  "title": "Expert",
+  "slug": "/category/expert",
+  "permalink": "/category/expert",
+  "navigation": {
+    "previous": {
+      "title": "Introduction",
+      "permalink": "/mineflayer/advanced/intro"
+    },
+    "next": {
+      "title": "Introduction",
+      "permalink": "/mineflayer/expert/intro"
+    }
+  }
+}

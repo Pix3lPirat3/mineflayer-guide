@@ -1,0 +1,23 @@
+# Attack Entities
+The basic method for attacking an entity is `bot.attack(entity)`
+
+## Filtering
+Using a filter helps you only attack mobs in a "Safe Distance" (*legit distance*) around the player, and by filtering by `Name` helps by targeting specific entities. If you don't add a filter your bot may attempt to attack `experience_orb`, `dropped_item`, and other entities.
+
+You can filter multiple entities by using `['zombie', 'creeper'].includes(entity.name) &&...` in place of `entity.name === 'zombie'`
+
+## Attack Zombie
+Attack nearby zombies within 4.5 blocks
+```js copy
+let target = bot.nearestEntity(entity => entity.name === 'zombie' && entity.position.distanceTo(bot.entity.position) < 4.5);
+if(!target) console.log('I cannot find a mob with this filter');
+bot.attack(target)
+```
+
+## Attack Zombie, Skeleton, Creeper
+Attack nearby zombies, skeletons, and creepers within 4.5 blocks
+```js copy
+let target = bot.nearestEntity(entity => ['zombie', 'skeleton', 'creeper'].includes(entity.name) && entity.position.distanceTo(bot.entity.position) < 4.5);
+if(!target) console.log('I cannot find a mob with this filter');
+bot.attack(target)
+```

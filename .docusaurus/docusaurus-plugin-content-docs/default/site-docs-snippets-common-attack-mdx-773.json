@@ -1,0 +1,24 @@
+{
+  "id": "snippets/common/attack",
+  "title": "Attack Entities",
+  "description": "The basic method for attacking an entity is bot.attack(entity)",
+  "source": "@site/docs/snippets/common/attack.mdx",
+  "sourceDirName": "snippets/common",
+  "slug": "/snippets/common/attack",
+  "permalink": "/snippets/common/attack",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/snippets/common/attack.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Using Armor",
+    "permalink": "/snippets/common/armor"
+  },
+  "next": {
+    "title": "Breaking Blocks",
+    "permalink": "/snippets/common/block_break"
+  }
+}
