@@ -6,10 +6,12 @@
 export default {
   "title": "Mineflayer Guide",
   "tagline": "A beginner friendly collection of snippets and guides for Mineflayer",
-  "url": "https://your-docusaurus-site.example.com",
+  "url": "https://pix3lpirat3.github.io",
   "baseUrl": "/",
-  "organizationName": "Pix3lPirat3",
+  "organizationName": "pix3lpirat3",
   "projectName": "mineflayer-guide",
+  "trailingSlash": false,
+  "deploymentBranch": "gh-pages",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "i18n": {
@@ -118,7 +120,7 @@ export default {
           ]
         }
       ],
-      "copyright": "Copyright © 2023 My Project, Inc. Built with Docusaurus."
+      "copyright": "Copyright © 2024 My Project, Inc. Built with Docusaurus."
     },
     "prism": {
       "theme": {
@@ -331,6 +333,7 @@ export default {
     }
   },
   "baseUrlIssueBanner": true,
+  "onBrokenAnchors": "warn",
   "onDuplicateRoutes": "warn",
   "staticDirectories": [
     "static"
