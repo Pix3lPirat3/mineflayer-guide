@@ -16,14 +16,14 @@ const config = {
   url: 'https://pix3lpirat3.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/mineflayer-guide/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'pix3lpirat3', // Usually your GitHub org/user name.
   projectName: 'mineflayer-guide', // Usually your repo name.
   trailingSlash: false,
-  deploymentBranch: 'gh-pages',
+  //deploymentBranch: 'gh-pages',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
