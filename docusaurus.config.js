@@ -20,8 +20,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'Pix3lPirat3', // Usually your GitHub org/user name.
-  projectName: 'mineflayer-guide', // Usually your repo name.
+  organizationName: 'pix3lpirat3', // Usually your GitHub org/user name.
+  projectName: 'pix3lpirat3.github.io', // Usually your repo name.
   trailingSlash: false,
 
   onBrokenLinks: 'throw',
