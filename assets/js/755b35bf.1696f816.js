@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmineflayer_guide=self.webpackChunkmineflayer_guide||[]).push([[5796],{5398:e=>{e.exports=JSON.parse('{"label":"docusaurus","permalink":"/mineflayer-guide/blog/tags/docusaurus","allTagsPath":"/mineflayer-guide/blog/tags","count":4,"unlisted":false}')}}]);

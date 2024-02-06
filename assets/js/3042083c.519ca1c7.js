@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmineflayer_guide=self.webpackChunkmineflayer_guide||[]).push([[1232],{638:e=>{e.exports=JSON.parse('{"label":"hello","permalink":"/mineflayer-guide/blog/tags/hello","allTagsPath":"/mineflayer-guide/blog/tags","count":2,"unlisted":false}')}}]);
