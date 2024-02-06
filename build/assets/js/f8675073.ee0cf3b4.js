@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmineflayer_guide=self.webpackChunkmineflayer_guide||[]).push([[5479],{3350:e=>{e.exports=JSON.parse('{"title":"Basic","slug":"/category/basic","permalink":"/category/basic","navigation":{"previous":{"title":"Introduction","permalink":"/mineflayer/intro"},"next":{"title":"Introduction","permalink":"/mineflayer/basic/intro"}}}')}}]);

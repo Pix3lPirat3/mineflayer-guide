@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmineflayer_guide=self.webpackChunkmineflayer_guide||[]).push([[8325],{5730:e=>{e.exports=JSON.parse('{"title":"Snippets","slug":"/category/snippets","permalink":"/category/snippets","navigation":{"previous":{"title":"Introduction","permalink":"/mineflayer/expert/intro"},"next":{"title":"Using Armor","permalink":"/snippets/armor"}}}')}}]);
