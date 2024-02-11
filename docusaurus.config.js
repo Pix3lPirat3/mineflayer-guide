@@ -42,12 +42,15 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          routeBasePath: '/',
+          routeBasePath: '/snippets',
           sidebarPath: './sidebars.js',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/'
+        },
+        blog: {
+          blogSidebarTitle: 'Guides',
+          blogSidebarCount: 'ALL',
+          routeBasePath: '/',
+          showReadingTime: true,
+          sortPosts: 'ascending'
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -56,9 +59,20 @@ const config = {
     ],
   ],
 
+  plugins: ['@docusaurus/theme-live-codeblock'],
+  
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-    ({
+    (
+      {
+        liveCodeBlock: {
+      /**
+       * The position of the live playground, above or under the editor
+       * Possible values: "top" | "bottom"
+       */
+      playgroundPosition: 'bottom',
+    }},
+    {
       docs: {
         sidebar: {
           hideable: true,
@@ -82,9 +96,9 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Snippets',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/', label: 'Guides', position: 'left'},
           {
             href: 'https://github.com/pix3lpirat3',
             label: 'GitHub',
@@ -101,7 +115,7 @@ const config = {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
       },
-    }),
+  })
 };
 
 export default config;
