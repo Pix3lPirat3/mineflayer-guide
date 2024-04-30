@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmineflayer_guide=self.webpackChunkmineflayer_guide||[]).push([[2535],{5641:e=>{e.exports=JSON.parse('{"title":"Guides","items":[{"title":"activateBlock","permalink":"/mineflayer-guide/activateBlock","unlisted":false}]}')}}]);

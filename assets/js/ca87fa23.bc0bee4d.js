@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmineflayer_guide=self.webpackChunkmineflayer_guide||[]).push([[4373],{5317:e=>{e.exports=JSON.parse('{"label":"trapdoor","permalink":"/mineflayer-guide/tags/trapdoor","allTagsPath":"/mineflayer-guide/tags","count":1,"unlisted":false}')}}]);
