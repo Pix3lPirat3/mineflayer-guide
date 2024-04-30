@@ -29,6 +29,11 @@ let blocks = bot.findBlocks({
 if(!blocks) return console.log('There were no blocks found!')
 ```
 
+Block at Cursor:
+```JS
+let block = bot.blockAtCursor(maxDistance);
+```
+
 Then remember to **look at** the block if needed
 ```jS
 await bot.lookAt(block.position) // <-- and learn to use async/await
