@@ -1,13 +1,11 @@
 ---
-title: Introduction
-sidebar_position: 0
+title: API
+sidebar_position: 1
 ---
 
-# Introduction
+# API
 
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+**Table of Contents**  *Edited by Contributors*
 
 - [API](#api)
   - [Enums](#enums)
@@ -273,7 +271,7 @@ sidebar_position: 0
       - [bot.canDigBlock(block)](#botcandigblockblock)
       - [bot.recipesFor(itemType, metadata, minResultCount, craftingTable)](#botrecipesforitemtype-metadata-minresultcount-craftingtable)
       - [bot.recipesAll(itemType, metadata, craftingTable)](#botrecipesallitemtype-metadata-craftingtable)
-      - [bot.nearestEntity()](#botnearestentitymatch--entity---return-true-)
+      - [bot.nearestEntity()](#botnearestentityfilter)
     - [Methods](#methods)
       - [bot.end(reason)](#botendreason)
       - [bot.quit(reason)](#botquitreason)
